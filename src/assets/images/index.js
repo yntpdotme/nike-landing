@@ -1,15 +1,19 @@
 const isWebPSupported = () => {
   const element = document.createElement('canvas');
-
   return element.toDataURL('image/webp').indexOf('data:image/webp') === 0;
 };
-const extension = isWebPSupported() ? 'webp' : 'png';
 
-import bigShoe1 from `./big-shoe1.${extension}`;
-import bigShoe2 from `./big-shoe2.${extension}`;
-import bigShoe3 from `./big-shoe3.${extension}`;
+import bigShoe1WEBP from './big-shoe1.webp';
+import bigShoe1PNG from './big-shoe1.png';
 
-import customer1 from `./customer1.${extension}`;
+import bigShoe2WEBP from './big-shoe2.webp';
+import bigShoe2PNG from './big-shoe2.png';
+
+import bigShoe3WEBP from './big-shoe3.webp';
+import bigShoe3PNG from './big-shoe3.png';
+
+import customer1WEBP from './customer1.webp';
+import customer1PNG from './customer1.png';
 import customer2 from './customer2.svg';
 
 import footerLogo from './footer-logo.svg';
@@ -27,6 +31,11 @@ import thumbnailBackground from './thumbnail-background.svg';
 import thumbnailShoe1 from './thumbnail-shoe1.svg';
 import thumbnailShoe2 from './thumbnail-shoe2.svg';
 import thumbnailShoe3 from './thumbnail-shoe3.svg';
+
+const bigShoe1 = isWebPSupported() ? bigShoe1WEBP : bigShoe1PNG;
+const bigShoe2 = isWebPSupported() ? bigShoe2WEBP : bigShoe2PNG;
+const bigShoe3 = isWebPSupported() ? bigShoe3WEBP : bigShoe3PNG;
+const customer1 = isWebPSupported() ? customer1WEBP : customer1PNG;
 
 export {
   bigShoe1,
