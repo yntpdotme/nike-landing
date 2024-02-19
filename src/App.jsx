@@ -1,4 +1,4 @@
-import Nav from './components/Nav';
+import {Nav} from './components';
 import {
   Hero,
   PopularProducts,
@@ -16,7 +16,6 @@ const App = () => {
       <Nav />
 
       <section className="xl:padding-l wide:padding-r padding-b">
-        {/* Hero Section */}
         <Hero />
       </section>
 
