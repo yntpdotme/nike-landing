@@ -24,7 +24,6 @@ const App = () => {
       </section>
 
       <section className="padding">
-        {/* SuperQuality Section */}
         <SuperQuality />
       </section>
 
