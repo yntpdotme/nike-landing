@@ -145,7 +145,15 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {src: github, alt: 'github logo'},
-  {src: linkedin, alt: 'linkedin logo'},
-  {src: twitter, alt: 'twitter logo'},
+  {
+    src: github,
+    alt: 'github logo',
+    href: 'https://github.com/KadlagAkash/nike-landing',
+  },
+  {
+    src: linkedin,
+    alt: 'linkedin logo',
+    href: 'https://www.linkedin.com/in/kadlagakash',
+  },
+  {src: twitter, alt: 'twitter logo', href: 'https://twitter.com/KadlagAkash'},
 ];

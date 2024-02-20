@@ -44,7 +44,6 @@ const App = () => {
       </section>
 
       <section className="padding-x padding-t bg-black pb-8">
-        {/* Footer Section */}
         <Footer />
       </section>
     </main>
