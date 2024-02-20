@@ -36,7 +36,6 @@ const App = () => {
       </section>
 
       <section className="padding bg-pale-blue">
-        {/* CustomerReviews Section */}
         <CustomerReviews />
       </section>
 
