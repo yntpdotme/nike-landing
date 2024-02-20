@@ -8,7 +8,7 @@ const SuperQuality = () => {
       className="max-container flex w-full items-center justify-between gap-10 max-lg:flex-col"
     >
       <div className="flex flex-1 flex-col">
-        <h2 className="font-palanquin text-4xl font-bold capitalize lg:max-w-lg">
+        <h2 className="font-palanquin text-4xl font-bold capitalize lg:max-w-lg dark:text-white">
           We Provide You
           <span className="text-coral-red"> Super Quality </span> Shoes
         </h2>

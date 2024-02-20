@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     fontSize: {
       xs: ['12px', '16px'],
@@ -19,6 +20,9 @@ export default {
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
+        dark: {
+          primary: '#2D3748',
+        },
         primary: '#ECEEFF',
         'coral-red': '#FF6452',
         'slate-gray': '#6D6D6D',
@@ -30,7 +34,9 @@ export default {
       },
       backgroundImage: {
         hero: "url('assets/images/collection-background.svg')",
+        'hero-dark': "url('assets/images/collection-background-dark.svg')",
         card: "url('assets/images/thumbnail-background.svg')",
+        'card-dark': "url('assets/images/thumbnail-background-dark.svg')",
       },
       screens: {
         wide: '1440px',

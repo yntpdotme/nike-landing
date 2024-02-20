@@ -5,10 +5,12 @@ import copyrightSign from './copyright-sign.svg';
 import close from './close.svg';
 import linkedin from './linkedin.svg';
 import hamburger from './hamburger.svg';
+import moon from './moon.svg';
 import github from './github.svg';
 import support from './support.svg';
 import shieldTick from './shield-tick.svg';
 import star from './star.svg';
+import sun from './sun.svg';
 import truckFast from './truck-fast.svg';
 import twitter from './twitter.svg';
 
@@ -20,10 +22,12 @@ export {
   close,
   linkedin,
   hamburger,
+  moon,
   github,
   support,
   shieldTick,
   star,
+  sun,
   truckFast,
   twitter,
 };

@@ -1,7 +1,7 @@
 import {headerLogo} from '../assets/images';
 import {navLinks} from '../constants';
 import DropdownMenu from './DropdownMenu';
-
+import ThemeToggler from './ThemeToggler';
 
 const Nav = () => {
   return (
@@ -22,7 +22,7 @@ const Nav = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="font-montserrat text-lg leading-normal text-slate-gray hover:font-medium hover:text-black"
+                className="font-montserrat text-lg leading-normal text-slate-gray hover:font-medium hover:text-black dark:text-slate-200 dark:hover:text-white"
               >
                 {item.label}
               </a>
@@ -30,13 +30,15 @@ const Nav = () => {
           ))}
         </ul>
 
-        <div className="flex gap-2 font-montserrat text-lg font-medium leading-normal max-lg:hidden wide:mx-10">
+        <ThemeToggler />
+
+        <div className="flex gap-2 font-montserrat text-lg font-medium leading-normal max-lg:hidden wide:mx-8 dark:text-white-400">
           <a href="/">Sign in</a>
           <span>/</span>
           <a href="/">Explore now</a>
         </div>
 
-        <DropdownMenu/>
+        <DropdownMenu />
       </nav>
     </header>
   );

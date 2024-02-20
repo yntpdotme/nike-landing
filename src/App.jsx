@@ -12,7 +12,7 @@ import {
 
 const App = () => {
   return (
-    <main className="relative">
+    <main className="relative dark:bg-black">
       <Nav />
 
       <section className="xl:padding-l wide:padding-r padding-b">
@@ -35,7 +35,7 @@ const App = () => {
         <SpecialOffer />
       </section>
 
-      <section className="padding bg-pale-blue">
+      <section className="padding bg-pale-blue dark:bg-slate-900">
         <CustomerReviews />
       </section>
 

@@ -19,7 +19,7 @@
   }
 
   .input {
-    @apply border pl-5 text-base leading-normal text-slate-gray outline-none max-sm:w-full max-sm:rounded-full max-sm:border-slate-gray max-sm:p-5 sm:flex-1 sm:border-none;
+    @apply border pl-5 text-base leading-normal text-slate-gray outline-none max-sm:w-full max-sm:rounded-full max-sm:border-slate-gray max-sm:p-5 sm:flex-1 sm:border-none dark:bg-transparent dark:text-white-400 dark:placeholder:text-slate-400;
   }
 }
 
@@ -53,6 +53,6 @@
   }
 
   .info-text {
-    @apply font-montserrat text-lg leading-7 text-slate-gray;
+    @apply font-montserrat text-lg leading-7 text-slate-gray dark:text-slate-400;
   }
 }

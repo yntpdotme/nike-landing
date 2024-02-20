@@ -1,0 +1,13 @@
+<svg fill="#fff" width="400px" height="400px" viewBox="0 0 18 18" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>sun-line</title>
+  <path d="M9 3.155a0.5 0.5 0 0 0 0.5 -0.5v-1.7a0.5 0.5 0 0 0 -1 0v1.7a0.5 0.5 0 0 0 0.5 0.5" class="clr-i-outline clr-i-outline-path-1"/>
+  <path d="M9 14.845a0.5 0.5 0 0 0 -0.5 0.5v1.7a0.5 0.5 0 0 0 1 0v-1.7a0.5 0.5 0 0 0 -0.5 -0.5" class="clr-i-outline clr-i-outline-path-2"/>
+  <path d="M4.16 4.87A0.5 0.5 0 0 0 4.5 5a0.5 0.5 0 0 0 0.355 -0.145 0.5 0.5 0 0 0 0 -0.71L3.665 2.96a0.5 0.5 0 0 0 -0.705 0.705Z" class="clr-i-outline clr-i-outline-path-3"/>
+  <path d="M13.84 13.13a0.5 0.5 0 1 0 -0.71 0.71l1.205 1.2a0.5 0.5 0 0 0 0.355 0.15 0.5 0.5 0 0 0 0.35 -0.15 0.5 0.5 0 0 0 0 -0.705Z" class="clr-i-outline clr-i-outline-path-4"/>
+  <path d="M3.155 9a0.5 0.5 0 0 0 -0.5 -0.5h-1.7a0.5 0.5 0 0 0 0 1h1.7a0.5 0.5 0 0 0 0.5 -0.5" class="clr-i-outline clr-i-outline-path-5"/>
+  <path d="M17.045 8.5h-1.7a0.5 0.5 0 1 0 0 1h1.7a0.5 0.5 0 0 0 0 -1" class="clr-i-outline clr-i-outline-path-6"/>
+  <path d="m4.16 13.13 -1.2 1.205a0.5 0.5 0 0 0 0.35 0.855 0.5 0.5 0 0 0 0.355 -0.15l1.205 -1.2a0.5 0.5 0 1 0 -0.71 -0.71" class="clr-i-outline clr-i-outline-path-7"/>
+  <path d="M13.5 5a0.5 0.5 0 0 0 0.355 -0.145l1.2 -1.205a0.5 0.5 0 0 0 0 -0.705 0.5 0.5 0 0 0 -0.705 0l-1.205 1.2a0.5 0.5 0 0 0 0 0.71A0.5 0.5 0 0 0 13.5 5" class="clr-i-outline clr-i-outline-path-8"/>
+  <path d="M9.065 3.875a5.065 5.065 0 1 0 5 5.065 5.04 5.04 0 0 0 -5 -5.065m0 9.125a4.065 4.065 0 1 1 4 -4.06 4.04 4.04 0 0 1 -4 4.06" class="clr-i-outline clr-i-outline-path-9"/>
+  <path x="0" y="0" width="36" height="36" fill-opacity="0" d="M0 0H18V18H0V0z"/>
+</svg>
