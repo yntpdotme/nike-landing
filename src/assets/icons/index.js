@@ -2,6 +2,7 @@ import arrowRight from './arrow-right.svg';
 import chevronLeft from './chevron-left.svg';
 import cheveronRight from './chevron-right.svg';
 import copyrightSign from './copyright-sign.svg';
+import close from './close.svg';
 import linkedin from './linkedin.svg';
 import hamburger from './hamburger.svg';
 import github from './github.svg';
@@ -16,6 +17,7 @@ export {
   cheveronRight,
   chevronLeft,
   copyrightSign,
+  close,
   linkedin,
   hamburger,
   github,

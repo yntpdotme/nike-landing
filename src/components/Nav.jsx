@@ -1,11 +1,12 @@
-import {hamburger} from '../assets/icons';
 import {headerLogo} from '../assets/images';
 import {navLinks} from '../constants';
+import DropdownMenu from './DropdownMenu';
+
 
 const Nav = () => {
   return (
-    <header className="padding-x absolute z-10 w-full py-8">
-      <nav className="max-container flex items-center justify-between">
+    <header className="padding-x absolute z-30 w-full py-8">
+      <nav className="max-container relative flex items-center justify-between">
         <a href="/">
           <img
             src={headerLogo}
@@ -29,15 +30,13 @@ const Nav = () => {
           ))}
         </ul>
 
-        <div className="flex gap-2 font-montserrat text-lg font-medium leading-normal max-lg:hidden wide:mx-12">
+        <div className="flex gap-2 font-montserrat text-lg font-medium leading-normal max-lg:hidden wide:mx-10">
           <a href="/">Sign in</a>
           <span>/</span>
           <a href="/">Explore now</a>
         </div>
 
-        <div className="hidden max-lg:block">
-          <img src={hamburger} alt="hamburger icon" width={25} height={25} />
-        </div>
+        <DropdownMenu/>
       </nav>
     </header>
   );

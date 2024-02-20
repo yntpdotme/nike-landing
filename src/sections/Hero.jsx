@@ -14,10 +14,10 @@ const Hero = () => {
       className="max-container flex min-h-screen w-full flex-col justify-center gap-10 xl:flex-row"
     >
       <div className="max-xl:padding-x relative flex flex-col items-start justify-center pt-28 xl:w-2/5">
-        <p className="font-montserrat text-xl text-coral-red">
+        <p className="mt-4 font-montserrat text-xl text-coral-red z-20">
           Our Summer Collections
         </p>
-        <h1 className="mt-10 font-palanquin text-8xl font-bold max-sm:text-[72px] max-sm:leading-[82px]">
+        <h1 className="mt-4 font-palanquin text-8xl font-bold max-sm:text-[72px] max-sm:leading-[82px]">
           <span className="relative z-10 pr-10 xl:whitespace-nowrap xl:bg-white">
             The New Arrival
           </span>
