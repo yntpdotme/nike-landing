@@ -40,7 +40,6 @@ const App = () => {
       </section>
 
       <section className="padding-x w-full py-16 sm:py-32">
-        {/* Subscribe Section */}
         <Subscribe />
       </section>
 
