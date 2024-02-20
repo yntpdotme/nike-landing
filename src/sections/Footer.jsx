@@ -22,7 +22,7 @@ const Footer = () => {
                 target="_blank"
                 className="flex h-12 w-12 items-center justify-center rounded-full bg-white"
               >
-                <img src={icon.src} alt={icon.alt} width={30} height={30} />
+                <img src={icon.src} alt={icon.alt} width={26} height={26} />
               </a>
             ))}
           </div>
