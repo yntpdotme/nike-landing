@@ -32,7 +32,6 @@ const App = () => {
       </section>
 
       <section className="padding">
-        {/* SpecialOffer Section */}
         <SpecialOffer />
       </section>
 
