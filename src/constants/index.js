@@ -148,12 +148,12 @@ export const socialMedia = [
   {
     src: github,
     alt: 'github logo',
-    href: 'https://github.com/KadlagAkash/nike-landing',
+    href: 'https://github.com/yntpdotme/nike-landing',
   },
   {
     src: linkedin,
     alt: 'linkedin logo',
-    href: 'https://www.linkedin.com/in/kadlagakash',
+    href: 'https://www.linkedin.com/in/yntpdotme',
   },
-  {src: twitter, alt: 'twitter logo', href: 'https://twitter.com/KadlagAkash'},
+  {src: twitter, alt: 'twitter logo', href: 'https://twitter.com/yntpdotme'},
 ];
